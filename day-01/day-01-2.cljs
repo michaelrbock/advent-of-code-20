@@ -12,6 +12,6 @@
 (def match
   (first
    (filter #(= 2020 (reduce + %))
-           (for [x day-01.core/entries y day-01.core/entries z day-01.core/entries] [x y z]))))
+           (for [x entries y entries z entries] [x y z]))))
 
 (println (reduce * match))
