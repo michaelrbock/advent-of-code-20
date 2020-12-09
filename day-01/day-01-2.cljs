@@ -1,5 +1,4 @@
-(ns day-01.core
-  (:require [clojure.string]))
+(require '[clojure.string :as str])
 
 (def fs (js/require "fs"))
 
