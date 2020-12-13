@@ -6,6 +6,7 @@ Problem description: https://adventofcode.com/2020/day/2
 
 ```
 $ lumo day-02-1.cljs
+$ lumo day-02-2.cljs
 ```
 
 ## Code Review
